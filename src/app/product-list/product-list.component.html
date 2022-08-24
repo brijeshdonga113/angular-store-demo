@@ -15,4 +15,10 @@
   <button type = "button" (click) = "share()">
     share
   </button>
+
+  <app-product-alerts
+  [product]="product" 
+  (notify)="onNotify()">
+</app-product-alerts>
+
 </div>
